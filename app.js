@@ -9,8 +9,7 @@ let winner = [
 ];
 
 let board_array = new Array(9).fill("E");
-//   0.  1.  2.  3.  4.  5.  6.  7.  8
-// ["E","E","E","E","E","E","E","E","E"]
+
 
 
 function checkWinner(){
@@ -28,12 +27,12 @@ function checkWinner(){
 
 
 
-// Print sahi se ho rha hai....
+
 
 const printer = (event)=>{
    
     const element = event.target;
-    // if board is empty
+ 
     if(board_array[element.id]==="E") 
    {
     total_turn++;
@@ -94,5 +93,3 @@ Restart.addEventListener('click',()=>{
 
 })
 
-
-// Homework Project: Rock paper scissor
